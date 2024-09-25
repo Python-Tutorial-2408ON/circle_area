@@ -1,13 +1,13 @@
-## Kata: Gerade oder Ungerade Zahlen
+## Kata: Flächeninhalt eines Kreises 
 
-1. Erstelle eine is_even.py Datei im Root Verzeichnis Deines Repositories.
-10 Punkte
+1. Erstelle eine `circle_area.py` Datei im Root-Verzeichnis Deines Repositories. 10 Punkte  
 
-2. Schreibe eine Funktion `is_even`, diese akzeptiert 1 numerisches Argumente und gibt `TRUE` zurück, wenn es sich um eine gerade Zahl handelt oder `FALSE` wenn es sich um eine ungerade Zahl handelt.
-10 Punkte
+
+2. Schreibe eine Funktion `circle_area`, die den Radius als Argument akzeptiert und den Flächeninhalt des Kreises zurückgibt. Verwende die Formel `A = π * r^2`. 10 Punkte  
+
 
 ### Beispiel
 ```python
-is_even(2)  # Should return True
-is_even(3)  # Should return False
+circle_area(3)  # Sollte 28.27 zurückgeben  
+circle_area(0)  # Sollte 0 zurückgeben  
 
